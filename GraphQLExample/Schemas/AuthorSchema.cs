@@ -7,6 +7,7 @@ namespace GraphQLExample.Schemas
     {
         public AuthorSchema(IServiceProvider services) : base(services)
         {
+
             Description = "Author schema";
 
             Query = services.GetRequiredService<Query>();
